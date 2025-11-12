@@ -7,25 +7,24 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.app',
+  title: 'TravelMate',
+  description: 'Únete a miles de viajeros que ya planifican sus viajes sin estrés con TravelMate',
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
+        url: '/adaptive-icon.png',
         media: '(prefers-color-scheme: light)',
       },
       {
-        url: '/icon-dark-32x32.png',
+        url: '/adaptive-icon.png',
         media: '(prefers-color-scheme: dark)',
       },
       {
-        url: '/icon.svg',
+        url: '/favicon.svg',
         type: 'image/svg+xml',
       },
     ],
-    apple: '/apple-icon.png',
+    apple: '/adaptive-icon.png',
   },
 }
 
