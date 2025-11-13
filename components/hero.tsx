@@ -29,7 +29,7 @@ export default function Hero() {
             </div>
             <div className="flex flex-col sm:flex-row gap-4 pt-2">
               <Link
-                href="https://worldle.travelmate.lat"
+                href="https://wordle.travelmate.lat"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-2 bg-white/10 backdrop-blur border border-white/30 text-white rounded-full font-semibold hover:bg-white/20 transition text-center"
