@@ -1,5 +1,6 @@
 "use client"
 import Image from "next/image"
+import Link from "next/link"
 
 export default function Hero() {
   return (
@@ -25,6 +26,24 @@ export default function Hero() {
               <button className="px-8 py-3 border-2 border-white text-white rounded-full font-bold hover:bg-white/10 transition">
                 Ver Demo
               </button>
+            </div>
+            <div className="flex flex-col sm:flex-row gap-4 pt-2">
+              <Link
+                href="https://worldle.travelmate.lat"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-6 py-2 bg-white/10 backdrop-blur border border-white/30 text-white rounded-full font-semibold hover:bg-white/20 transition text-center"
+              >
+                🌍 Wordle de Destinos
+              </Link>
+              <Link
+                href="https://quiz.travelmate.lat"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-6 py-2 bg-white/10 backdrop-blur border border-white/30 text-white rounded-full font-semibold hover:bg-white/20 transition text-center"
+              >
+                🎯 Quiz de Viajeros
+              </Link>
             </div>
           </div>
 
